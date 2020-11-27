@@ -6,3 +6,191 @@
   font-family: 'Courier New', Courier, monospace;
 
 }
+
+p{
+  font-family: 'Courier New', Courier, monospace;
+  margin-left: 50px;
+
+}
+
+ul li {
+  list-style: none;
+  margin-bottom: 1rem;
+  font-family: 'Courier New', Courier, monospace;
+}
+.list{
+   list-style: decimal;
+   }
+
+li.inline {
+display: inline-block; 
+
+}
+
+div.section{
+  background-color: #acd28e;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+div.section2{
+  background-color: white;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  boarder: black;
+}
+
+div.image{
+  height: 300px;
+  width: 30vw;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: 10px;
+}
+
+.button{
+  height:50 ;
+  width:100px;
+  border: none;
+  font-family: "Lucida Console", Courier, monospace;
+ 
+}
+
+
+.button1{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px; 
+  margin-left: 5px;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+}
+
+  .button2{
+  height:50px ;
+  width:30vw;
+  border: none;
+  background-colour: #079db8;
+  font-family: "Lucida Console", Courier, monospace;
+  colour: #079db8 ;
+} 
+
+.button3{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px; 
+  margin-left: 35vw;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+  margin-right: vw;
+  height:50px ;
+  width:30vw;
+  padding-bottom:50vw;
+}
+
+}
+.button5 {
+  align: center;
+  background-color: white;
+  color:#4CAF50;
+  border: 2px solid #4CAF50;
+  width: 100px;
+  height: 50px;
+  margin: 25px;
+}
+
+.button5:hover {
+  background-color: #4CAF50;
+  color: white;
+  onclick:  #4CAF50;
+}
+a{
+  text-emphasis-color: white;
+}
+
+h1{
+  font-family: "Lucida Console", Courier, monospace;
+  text-align: center;
+  margin-bottom: 100px;
+}
+h2, h3{
+  font-family: "Lucida Console", Courier, monospace;
+  text-align: left;
+  margin-bottom: 50px;
+  margin-left:25px;
+  padding-bottom:25px;
+  padding-top:25px;
+}
+
+h4{
+font-family: "Lucida Console", Courier, monospace;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-left:25px;
+  padding-bottom:25px;
+  padding-top:25px;  
+}
+h5{
+font-family: "Lucida Console", Courier, monospace;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-left:25px;
+  padding-bottom:25px;
+  padding-top:25px;  
+  colour: #4CAF50;
+}
+
+.font{
+  font-family: "Lucida Console", Courier, monospace;
+}
+input{
+  margin:75;
+}
+
+label{
+  size:6;
+}
+
+
+input[type=text], select {
+  width: 60%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 60%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+}
+
+footer{
+  background-colour:#079db8;
+  text-align: center;
+  padding: 10px;
+}
